@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harbor Light Community Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header, nav, main, footer {
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .center-and-space-content {
+      text-align: center;
+      padding: 10px;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="center-and-space-content">
+    <img src="logo.jpg" alt="Harbor Light Community Center Logo" width="120">
+    <h1>Welcome to Harbor Light Community Center</h1>
+  </header>
+
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Our Services</a></li>
+      <li><a href="#events">Join Our Events</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>The Harbor Light Community Center supports our community with education, services, and events.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We offer educational programs, workshops, and outreach activities for all ages.</p>
+    </section>
+
+    <section id="events" itemscope itemtype="http://schema.org/Event">
+      <h2>Join Our Events</h2>
+      <p>
+        <strong itemprop="name">Annual Summer Festival</strong><br>
+        <time itemprop="startDate" datetime="2025-07-15T18:00">July 15, 2025, 6:00 PM</time><br>
+        <span itemprop="description">A celebration with music, food, and fun for the entire community.</span>
+      </p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at: <a href="mailto:info@harborlight.com">info@harborlight.com</a></p>
+    <p>© 2050 Harbor Light Community Center</p>
+  </footer>
+
+</body>
+</html>
